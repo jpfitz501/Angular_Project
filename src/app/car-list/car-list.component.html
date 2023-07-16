@@ -1,0 +1,16 @@
+<table class="carTable">
+    <tr>
+        <th>Make</th>
+        <th>Model</th>
+        <th>Doors</th>
+        <th>Price</th>
+        <th>Year</th>
+    </tr>
+    <tr *ngFor="let Car of CarList">
+        <td>{{Car.make}}</td>
+        <td>{{Car.model}}</td>
+        <td>{{Car.doors}}</td>
+        <td>{{Car.price}}</td>
+        <td>{{Car.year}}</td>
+    </tr>
+</table>
